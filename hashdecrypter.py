@@ -4,7 +4,7 @@ import requests
 import sys
 
 if len(sys.argv)!=2:
-	print "usage : ./hashdecrypter 21232f297a57a5a743894a0e4a801fc3"
+	print "usage : ./hashdecrypter.py 21232f297a57a5a743894a0e4a801fc3"
 else:
 
 	url = "http://hashtoolkit.com/reverse-hash?hash="+sys.argv[1]
