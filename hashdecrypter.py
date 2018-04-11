@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import httplib
 from bs4 import BeautifulSoup
 import requests
